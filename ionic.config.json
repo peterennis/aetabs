@@ -1,0 +1,7 @@
+{
+  "name": "aetabs",
+  "type": "angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
