@@ -4,7 +4,7 @@
   </ion-toolbar>
 </ion-header>
 
-<svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg style="display: none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
   <symbol id="icon-adaept" viewBox="0 0 512 512">
     <title>adaept</title>
@@ -15,25 +15,21 @@
 </svg>
 
 <ion-content padding>
-
   <ion-list>
     <ion-list-header>
       <ion-label>Follow us on Twitter</ion-label>
     </ion-list-header>
-      <ion-item slot="start">
-        <div class="Aligner">
-          <div class="Aligner-item">
-            <!--<svg style="background-color: red;" class="icon" viewBox="0 0 32 32">-->
-            <svg class="icon" viewBox="0 0 32 32">
-              <use xlink:href=#icon-adaept></use>
-            </svg>
-          </div>
-          <div class="myspace"></div>
-          <div class="Aligner-item">
-            @adaept
-          </div>
-        </div>
-      </ion-item>
+    <ion-item>
+      <div slot="start">
+        <svg class="icon-adaept" viewBox="0 0 32 32">
+          <use href=#icon-adaept></use>
+        </svg>
+      </div>
+      <div class="myspace"></div>
+      <ion-label>
+        @adaept
+      </ion-label>
+    </ion-item>
   </ion-list>
 
   <!--<div id="aeternity"></div>-->
@@ -56,7 +52,7 @@
     --ion-color-facebook:    #3b5998;
   -->
 
-  <ion-fab vertical="top" horizontal="end" edge>
+  <ion-fab vertical="top" horizontal="end" slot=“fixed” edge>
     <ion-fab-button mini color="danger">
       <ion-icon name="add"></ion-icon>
     </ion-fab-button>
