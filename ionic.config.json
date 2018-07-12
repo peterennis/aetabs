@@ -1,7 +1,5 @@
 {
   "name": "aetabs",
-  "type": "angular",
-  "integrations": {
-    "cordova": {}
-  }
+  "integrations": {},
+  "type": "angular"
 }
