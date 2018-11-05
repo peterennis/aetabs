@@ -14,9 +14,12 @@ import { AppComponent } from './app.component';
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
-  imports: [ 
-    FormsModule, 
-    MbscModule,BrowserModule, IonicModule.forRoot(), AppRoutingModule],
+  imports: [
+    FormsModule,
+    MbscModule,
+    BrowserModule,
+    IonicModule.forRoot(),
+    AppRoutingModule],
   providers: [
     StatusBar,
     SplashScreen,
@@ -24,4 +27,4 @@ import { AppComponent } from './app.component';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
