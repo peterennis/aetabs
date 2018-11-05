@@ -22,4 +22,4 @@ import { HomePageModule } from '../home/home.module';
   ],
   declarations: [TabsPage]
 })
-export class TabsModule {}
+export class TabsPageModule {}
