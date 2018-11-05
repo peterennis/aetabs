@@ -6,8 +6,8 @@ import { NgModule } from '@angular/core';
 import { AboutPage } from './about.page';
 
 @NgModule({
-  imports: [ 
-    FormsModule, 
+  imports: [
+    FormsModule,
     MbscModule,
     IonicModule,
     RouterModule.forChild([{ path: '', component: AboutPage }])
