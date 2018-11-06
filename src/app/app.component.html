@@ -11,6 +11,14 @@
       </ion-header>
 
       <ion-content padding>
+        <ion-list>
+          <ion-menu-toggle *ngFor="let p of appPages">
+            <ion-item>
+              <ion-icon slot="start" [name]="p.icon"></ion-icon>
+              <ion-label>{{p.title}}</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
 
       </ion-content>
     </ion-menu>
