@@ -13,12 +13,12 @@ export class AppComponent {
     {
       title: 'Home',
       url: '',
-      ionc: 'home'
+      icon: 'home'
     },
     {
       title: 'List',
       url: '/list',
-      icon: ''
+      icon: 'list'
     }
   ]
   constructor(
