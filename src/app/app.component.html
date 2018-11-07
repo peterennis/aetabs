@@ -13,7 +13,7 @@
       <ion-content padding>
         <ion-list>
           <ion-menu-toggle *ngFor="let p of appPages">
-            <ion-item [routerlink]="p.url" [routerdirection]="'root'">
+            <ion-item [routerLink]="p.url" [routerDirection]="''">
               <ion-icon slot="start" [name]="p.icon"></ion-icon>
               <ion-label>{{p.title}}</ion-label>
             </ion-item>
