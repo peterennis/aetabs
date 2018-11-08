@@ -1,0 +1,11 @@
+img {
+    transition: all 1.5s ease;
+    object-fit: width;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+img:hover {
+    transform: rotate(180deg);
+  }
