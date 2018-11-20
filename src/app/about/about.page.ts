@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['about.page.scss']
 })
 export class AboutPage {
-  myBirthday: Date;
+
 }
