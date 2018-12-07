@@ -1,3 +1,8 @@
 ion-content {
   --ion-background-color: #d5ffd5;
   }
+
+  .welcome-card ion-img {
+    max-height: 35vh;
+    overflow: hidden;
+  }
