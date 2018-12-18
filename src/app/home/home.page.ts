@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss']
 })
 export class HomePage {
-  constructor() {}
+  constructor() { }
 
   doLogin() {
     console.log('HomePage.doLogin');
@@ -72,8 +72,8 @@ export class HomePage {
     }
   }
 
-  ionViewDidEnter() {
-    console.log('ionViewDidEnter');
+  ngOnInit() {
+    console.log('ngOnInit ');
     this.doStars();
   }
 }
