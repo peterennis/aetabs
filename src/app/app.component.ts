@@ -19,6 +19,11 @@ export class AppComponent {
       title: 'Ambigram',
       url: '/ambigram',
       icon: 'refresh-circle'
+    },
+    {
+      title: 'Family',
+      url: '/family',
+      icon: 'people'
     }
   ]
   constructor(
