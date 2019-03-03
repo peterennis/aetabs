@@ -6,7 +6,8 @@ const routes: Routes = [
   { path: 'ambigram', loadChildren: './ambigram/ambigram.module#AmbigramPageModule' },
   { path: 'family', loadChildren: './family/family.module#FamilyPageModule' },  { path: 'aeauth', loadChildren: './aeauth/aeauth.module#AeauthPageModule' },
   { path: 'aeplaces', loadChildren: './aeplaces/aeplaces.module#AeplacesPageModule' },
-  { path: 'aediscover', loadChildren: './aeplaces/aediscover/aediscover.module#AediscoverPageModule' }
+  { path: 'aediscover', loadChildren: './aeplaces/aediscover/aediscover.module#AediscoverPageModule' },
+  { path: 'aeoffers', loadChildren: './aeplaces/aeoffers/aeoffers.module#AeoffersPageModule' }
 
 ];
 
