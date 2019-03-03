@@ -9,7 +9,8 @@ const routes: Routes = [
   { path: 'aediscover', loadChildren: './aeplaces/aediscover/aediscover.module#AediscoverPageModule' },
   { path: 'aeoffers', loadChildren: './aeplaces/aeoffers/aeoffers.module#AeoffersPageModule' },
   { path: 'aenew-offer', loadChildren: './aeplaces/aeoffers/aenew-offer/aenew-offer.module#AenewOfferPageModule' },
-  { path: 'aeedit-offer', loadChildren: './aeplaces/aeoffers/aeedit-offer/aeedit-offer.module#AeeditOfferPageModule' }
+  { path: 'aeedit-offer', loadChildren: './aeplaces/aeoffers/aeedit-offer/aeedit-offer.module#AeeditOfferPageModule' },
+  { path: 'aeplace-detail', loadChildren: './aeplaces/aediscover/aeplace-detail/aeplace-detail.module#AeplaceDetailPageModule' }
 
 ];
 
