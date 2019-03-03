@@ -12,7 +12,8 @@ const routes: Routes = [
   { path: 'aenew-offer', loadChildren: './aeplaces/aeoffers/aenew-offer/aenew-offer.module#AenewOfferPageModule' },
   { path: 'aeedit-offer', loadChildren: './aeplaces/aeoffers/aeedit-offer/aeedit-offer.module#AeeditOfferPageModule' },
   { path: 'aeplace-detail', loadChildren: './aeplaces/aediscover/aeplace-detail/aeplace-detail.module#AeplaceDetailPageModule' },
-  { path: 'aeoffer-bookings', loadChildren: './aeplaces/aeoffers/aeoffer-bookings/aeoffer-bookings.module#AeofferBookingsPageModule' }
+  { path: 'aeoffer-bookings', loadChildren: './aeplaces/aeoffers/aeoffer-bookings/aeoffer-bookings.module#AeofferBookingsPageModule' },  { path: 'aebookings', loadChildren: './aebookings/aebookings.module#AebookingsPageModule' }
+
 
 ];
 
