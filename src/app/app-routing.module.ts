@@ -7,13 +7,7 @@ const routes: Routes = [
   { path: 'family', loadChildren: './family/family.module#FamilyPageModule' },
   { path: 'aeauth', loadChildren: './aeauth/aeauth.module#AeauthPageModule' },
   { path: 'aeplaces', loadChildren: './aeplaces/aeplaces.module#AeplacesPageModule' },
-  { path: 'aediscover', loadChildren: './aeplaces/aediscover/aediscover.module#AediscoverPageModule' },
-  { path: 'aeoffers', loadChildren: './aeplaces/aeoffers/aeoffers.module#AeoffersPageModule' },
-  { path: 'aenew-offer', loadChildren: './aeplaces/aeoffers/aenew-offer/aenew-offer.module#AenewOfferPageModule' },
-  { path: 'aeedit-offer', loadChildren: './aeplaces/aeoffers/aeedit-offer/aeedit-offer.module#AeeditOfferPageModule' },
-  { path: 'aeplace-detail', loadChildren: './aeplaces/aediscover/aeplace-detail/aeplace-detail.module#AeplaceDetailPageModule' },
-  { path: 'aeoffer-bookings', loadChildren: './aeplaces/aeoffers/aeoffer-bookings/aeoffer-bookings.module#AeofferBookingsPageModule' },  { path: 'aebookings', loadChildren: './aebookings/aebookings.module#AebookingsPageModule' }
-
+  { path: 'aebookings', loadChildren: './aebookings/aebookings.module#AebookingsPageModule' }
 
 ];
 
