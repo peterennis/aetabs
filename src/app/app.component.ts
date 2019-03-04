@@ -24,6 +24,21 @@ export class AppComponent {
       title: 'Family',
       url: '/family',
       icon: 'people'
+    },
+    {
+      title: 'aeauth',
+      url: '/aeauth',
+      icon: 'airplane'
+    },
+    {
+      title: 'aebookings',
+      url: '/aebookings',
+      icon: 'boat'
+    },
+    {
+      title: 'aeplaces',
+      url: '/aeplaces',
+      icon: 'bus'
     }
   ]
   constructor(
