@@ -23,4 +23,4 @@ const routes: Routes = [
   ],
   declarations: [AenewOfferPage]
 })
-export class AenewOfferPageModule {}
+export class AenewOfferPageModule { }
