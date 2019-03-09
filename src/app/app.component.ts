@@ -40,7 +40,8 @@ export class AppComponent {
       url: '/aeplaces',
       icon: 'photos'
     }
-  ]
+  ];
+
   constructor(
     private platform: Platform,
     private splashScreen: SplashScreen,
