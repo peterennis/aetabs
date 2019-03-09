@@ -4,6 +4,11 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class AeplacesService {
+  private _places = [];
+
+  get places() {
+    return [...this._places]
+  }
 
   constructor() { }
 }
