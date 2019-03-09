@@ -28,17 +28,17 @@ export class AppComponent {
     {
       title: 'Register',
       url: '/aeauth',
-      icon: 'airplane'
+      icon: 'list-box'
     },
     {
       title: 'Bookings',
       url: '/aebookings',
-      icon: 'boat'
+      icon: 'calendar'
     },
     {
       title: 'Places',
       url: '/aeplaces',
-      icon: 'bus'
+      icon: 'photos'
     }
   ]
   constructor(
