@@ -37,7 +37,7 @@ const routes: Routes = [
           },
           */
           {
-            path: 'placeId',
+            path: ':placeId',
             loadChildren: './aeoffers/aeoffer-bookings/aeoffer-bookings.module#AeofferBookingsPageModule'
           }
         ]
