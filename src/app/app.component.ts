@@ -26,17 +26,17 @@ export class AppComponent {
       icon: 'people'
     },
     {
-      title: 'aeauth',
+      title: 'Register',
       url: '/aeauth',
       icon: 'airplane'
     },
     {
-      title: 'aebookings',
+      title: 'Bookings',
       url: '/aebookings',
       icon: 'boat'
     },
     {
-      title: 'aeplaces',
+      title: 'Places',
       url: '/aeplaces',
       icon: 'bus'
     }
