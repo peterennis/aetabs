@@ -72,6 +72,7 @@ export class HomePage {
     }
   }
 
+  // tslint:disable-next-line: use-life-cycle-interface
   ngOnInit() {
     console.log('ngOnInit ');
     this.doStars();

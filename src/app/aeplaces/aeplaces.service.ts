@@ -7,7 +7,7 @@ export class AeplacesService {
   private _places = [];
 
   get places() {
-    return [...this._places]
+    return [...this._places];
   }
 
   constructor() { }
