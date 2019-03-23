@@ -10,7 +10,7 @@ export class AeplacesService {
       'P1',
       'Universal Studios, Hollywood',
       'California - The Golden State',
-      'https://www.universalstudioshollywood.com/',
+      'https://www.universalstudioshollywood.com/wp-content/uploads/2017/05/2000x793_AP_page_image-1761x480.jpg',
       400.40
     ),
     new Aeplaces(
