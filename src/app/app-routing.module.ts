@@ -7,7 +7,8 @@ const routes: Routes = [
   { path: 'family', loadChildren: './family/family.module#FamilyPageModule' },
   { path: 'aeauth', loadChildren: './aeauth/aeauth.module#AeauthPageModule' },
   { path: 'aeplaces', loadChildren: './aeplaces/aeplaces.module#AeplacesPageModule' },
-  { path: 'aebookings', loadChildren: './aebookings/aebookings.module#AebookingsPageModule' }
+  { path: 'aebookings', loadChildren: './aebookings/aebookings.module#AebookingsPageModule' },
+  { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
 
 ];
 

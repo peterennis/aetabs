@@ -39,6 +39,11 @@ export class AppComponent {
       title: 'Places',
       url: '/aeplaces',
       icon: 'photos'
+    },
+    {
+      title: 'Login',
+      url: '/login',
+      icon: 'log-in'
     }
   ];
 
