@@ -41,6 +41,11 @@ export class AppComponent {
       icon: 'photos'
     },
     {
+      title: 'Settings',
+      url: '/settings',
+      icon: 'settings'
+    },
+    {
       title: 'Login',
       url: '/login',
       icon: 'log-in'

@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'aeauth', loadChildren: './aeauth/aeauth.module#AeauthPageModule' },
   { path: 'aeplaces', loadChildren: './aeplaces/aeplaces.module#AeplacesPageModule' },
   { path: 'aebookings', loadChildren: './aebookings/aebookings.module#AebookingsPageModule' },
+  { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' },
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
 
 ];
