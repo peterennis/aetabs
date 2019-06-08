@@ -1,19 +1,13 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
 import { SettingsPage } from './settings.page';
 import { SharedModule } from '../shared/shared.module';
 
-const routes: Routes = [
-  {
-    path: '',
-    component: SettingsPage
-  }
-];
+import { SettingsRoutingModule } from './settings-routing.module';
 
 @NgModule({
   imports: [
     SharedModule,
-    RouterModule.forChild(routes)
+    SettingsRoutingModule
   ],
   declarations: [SettingsPage]
 })

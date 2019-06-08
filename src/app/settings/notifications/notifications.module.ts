@@ -10,6 +10,35 @@ const routes: Routes = [
   }
 ];
 
+/*
+const routes: Routes = [
+  {
+    path: './settings/notifications',
+    component: NotificationsPage,
+    children: [
+      {
+        path: 'notifications', children: [
+          {
+            path: '',
+            loadChildren: './notifications/notifications.module#NotificationsPageModule'
+          }
+        ]
+      },
+      {
+        path: '',
+        redirectTo: '/aeplaces/tabs/discover',
+        pathMatch: 'full'
+      }
+    ]
+  },
+  {
+    path: '',
+    redirectTo: './settings/notifications',
+    pathMatch: 'full'
+  }
+];
+*/
+
 @NgModule({
   imports: [
     SharedModule,
