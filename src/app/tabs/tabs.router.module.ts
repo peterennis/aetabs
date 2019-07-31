@@ -13,7 +13,8 @@ const routes: Routes = [
         children: [
           {
             path: '',
-            loadChildren: '../home/home.module#HomePageModule'
+            loadChildren: () =>
+              import('../home/home.module').then(m => m.HomePageModule)
           }
         ]
       },
@@ -22,7 +23,8 @@ const routes: Routes = [
         children: [
           {
             path: '',
-            loadChildren: '../about/about.module#AboutPageModule'
+            loadChildren: () =>
+              import('../about/about.module').then(m => m.AboutPageModule)
           }
         ]
       },
@@ -31,7 +33,8 @@ const routes: Routes = [
         children: [
           {
             path: '',
-            loadChildren: '../contact/contact.module#ContactPageModule'
+            loadChildren: () =>
+              import('../contact/contact.module').then(m => m.ContactPageModule)
           }
         ]
       },
