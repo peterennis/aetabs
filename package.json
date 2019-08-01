@@ -59,7 +59,7 @@
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "tslint-ionic-rules": "~0.0.21",
-    "typescript": "~3.4.3"
+    "typescript": "~3.5.3"
   },
   "description": "An adaept project",
   "cordova": {

@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  /*{ path: '', loadChildren: './tabs/tabs.module#TabsPageModule' },*/
+  { path: '', loadChildren: './tabs/tabs.module#TabsPageModule' },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   /*{ path: 'ambigram', loadChildren: './ambigram/ambigram.module#AmbigramPageModule' },*/
   { path: 'ambigram', loadChildren: () => import('./ambigram/ambigram.module').then(m => m.AmbigramPageModule) },
