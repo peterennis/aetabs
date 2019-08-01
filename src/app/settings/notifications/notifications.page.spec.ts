@@ -1,5 +1,5 @@
-import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { IonicModule } from '@ionic/angular';
 
 import { NotificationsPage } from './notifications.page';
 
@@ -9,17 +9,14 @@ describe('NotificationsPage', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NotificationsPage ],
-      schemas: [CUSTOM_ELEMENTS_SCHEMA],
-    })
-    .compileComponents();
-  }));
+      declarations: [NotificationsPage],
+      imports: [IonicModule.forRoot()]
+    }).compileComponents();
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(NotificationsPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
-  });
+  }));
 
   it('should create', () => {
     expect(component).toBeTruthy();
