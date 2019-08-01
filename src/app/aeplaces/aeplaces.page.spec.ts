@@ -1,5 +1,5 @@
-import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { IonicModule } from '@ionic/angular';
 
 import { AeplacesPage } from './aeplaces.page';
 
@@ -9,17 +9,14 @@ describe('AeplacesPage', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AeplacesPage ],
-      schemas: [CUSTOM_ELEMENTS_SCHEMA],
-    })
-    .compileComponents();
-  }));
+      declarations: [AeplacesPage],
+      imports: [IonicModule.forRoot()]
+    }).compileComponents();
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(AeplacesPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
-  });
+  }));
 
   it('should create', () => {
     expect(component).toBeTruthy();
