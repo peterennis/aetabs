@@ -1,7 +1,7 @@
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { AboutPage } from './about.page';
 
 @NgModule({
@@ -10,6 +10,7 @@ import { AboutPage } from './about.page';
     IonicModule,
     RouterModule.forChild([{ path: '', component: AboutPage }])
   ],
-  declarations: [AboutPage]
+  declarations: [AboutPage],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AboutPageModule { }
