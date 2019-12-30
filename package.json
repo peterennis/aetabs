@@ -29,7 +29,7 @@
     "cordova-sqlite-storage": "^4.0.0",
     "core-js": "^3.6.1",
     "rxjs": "^6.5.3",
-    "rxjs-compat": "^6.5.3",
+    "rxjs-compat": "^6.5.4",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
