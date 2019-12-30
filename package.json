@@ -28,7 +28,7 @@
     "cordova-plugin-camera": "^4.1.0",
     "cordova-sqlite-storage": "^4.0.0",
     "core-js": "^3.6.1",
-    "rxjs": "^6.5.3",
+    "rxjs": "^6.5.4",
     "rxjs-compat": "^6.5.3",
     "zone.js": "~0.10.2"
   },
